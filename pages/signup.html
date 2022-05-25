@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Travel Site - Home</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Sign up</title>
 </head>
 <body>
     <nav class="navbar">
@@ -40,52 +40,37 @@
             </ul>
         </section>
     </nav>
-    <section class="hero">
-        <section class="hero__wrap">
-            <article class="hero__body">
-                <h1 class="hero__slogan">
-                    Traveling Comes With Endless Discoveries
+    <div class="signup">
+        <div class="signup__wrap">
+            <img class="signup__pic" src="../assets/Images/hawaii.jpg" alt="">
+            <form class="signup__form">
+                <h1 class="signup__header">
+                    Get in Touch
                 </h1>
-                <p class="hero__text">
-                    Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.
-                </p>
-                <a href="./pages/signup.html">
-                    <button class="hero__btn">
-                        Get Started
-                    </button>
-                </a>
-            </article>
-            <img class="hero__icon" src="./Assets/Images/hero.png" alt="hero image">
-        </section>
-    </section>
-    <article>
-        <section class="rec">
-            <section class="rec__wrap">
-                <h3 class="rec__subheader">Recommendations</h3>
-                <div class="rec__card-wrap">
-                    <article class="rec__card">
-                        <a href="./pages/hawaii.html">
-                            <img class="card__images" src="./Assets/Images/hawaii.jpg" alt="hawaii card">
-                        </a>
-                        <h4 class="card__text">Hawaii</h4>
-                    </article>
-                    <article class="rec__card">
-                        <a href="./pages/iceland.html">
-                            <img class="card__images" src="./Assets/Images/iceland.jpg" alt="iceland card">
-                        </a>
-                        <h4 class="card__text">Iceland</h4>
-                    </article>
-                    <article class="rec__card">
-                        <a href="./pages/greece.html">
-                            <img class="card__images" src="./Assets/Images/greece.jpg" alt="greece card">
-                        </a>
-                        <h4 class="card__text">Greece</h4>
-                    </article>
-                </div>
-            </section>          
-        </section>
-    </article>
-
+                <label for="drowpdown" class="signup__label">
+                    Destination:
+                    <select type="vacation" class="signup__select">
+                        <option value="greece">Greece</option>
+                        <option value="hawaii">Hawaii</option>
+                        <option value="iceland">Iceland</option>
+                    </select>
+                </label>
+                <label for="input" class="signup__label">
+                    Name:
+                    <input type="name" class="signup__input">
+                </label>
+                <label for="input" class="signup__label">
+                    Email:
+                    <input type="email" class="signup__input">
+                </label>
+                <label for="input" class="signup__label"> 
+                    Message:
+                    <textarea type="email" class="signup__textarea"></textarea>
+                </label>
+                <button class="signup__btn">Submit</button>
+            </form>
+        </div>
+    </div>
     <footer class="footer">
         <div class="footer__wrap">
             <div class="footer__contacts">
@@ -132,7 +117,7 @@
                             <a class="footer__link" href="https://www.instagram.com">
                                 <img 
                                 class="footer__icon"
-                                src="./Assets/Icons/icon-instagram.png" 
+                                src="../Assets/Icons/icon-instagram.png" 
                                 alt="instagram"
                                 >
                             </a>
@@ -141,7 +126,7 @@
                             <a class="footer__link" href="https://www.facebook.com">
                                 <img 
                                 class="footer__icon"
-                                src="./Assets/Icons/icon-facebook.png" 
+                                src="../Assets/Icons/icon-facebook.png" 
                                 alt="facebook"
                                 >
                             </a>
@@ -150,7 +135,7 @@
                             <a class="footer__link" href="https://www.twitter.com">
                                 <img 
                                 class="footer__icon"
-                                src="./Assets/Icons/icon-twitter.png" 
+                                src="../Assets/Icons/icon-twitter.png" 
                                 alt="twitter"
                                 >
                             </a>
@@ -160,6 +145,5 @@
             </div>
         </div>
     </footer>
-        
 </body>
 </html>
